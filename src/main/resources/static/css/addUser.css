@@ -1,0 +1,38 @@
+/* addUser.css */
+/* Тёплая, светлая палитра с акцентом на медовый оттенок */
+body {
+    background-color: #FFF8E1; /* светлый медовый фон */
+    font-family: 'Open Sans', sans-serif;
+    color: #5D4037;
+}
+
+.navbar {
+    background-color: #FFB74D; /* теплый оранжево-медовый */
+}
+
+.navbar-brand,
+.nav-link {
+    color: #FFFFFF !important;
+}
+
+.nav-link:hover {
+    color: #FFE082 !important;
+}
+
+.container,
+.card {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #FFB74D;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #FFA726;
+}

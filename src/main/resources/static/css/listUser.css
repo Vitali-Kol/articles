@@ -1,0 +1,65 @@
+/* listUser.css */
+/* Элегантная палитра с акцентом на винные и серые тона */
+body {
+    background-color: #F3F1F5; /* светлый фиолетово-серый фон */
+    font-family: 'Montserrat', sans-serif;
+    color: #4E342E;
+}
+
+.navbar {
+    background-color: #6A1B9A; /* глубокий винный фиолетовый */
+}
+
+.navbar-brand,
+.nav-link {
+    color: black !important;
+}
+
+.nav-link:hover {
+    color: #CE93D8 !important;
+}
+
+.container,
+.card {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилизация таблицы */
+table.table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+table.table thead tr {
+    background-color: #6A1B9A;
+    color: #FFFFFF;
+}
+table.table td,
+table.table th {
+    vertical-align: middle;
+    border-top: none;
+}
+
+/* Кнопки */
+.btn-info {
+    background-color: #6A1B9A;
+    border: none;
+    transition: background-color 0.3s ease;
+    color: #FFFFFF;
+}
+.btn-info:hover {
+    background-color: #5E35B1;
+}
+
+.btn-danger {
+    background-color: #D32F2F;
+    border: none;
+    transition: background-color 0.3s ease;
+    color: #FFFFFF;
+}
+.btn-danger:hover {
+    background-color: #C62828;
+}

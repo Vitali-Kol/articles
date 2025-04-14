@@ -1,0 +1,48 @@
+/* detailsArticle.css */
+/* Холодная палитра с оттенками синего */
+body {
+    background-color: #E8F6FF; /* светлый голубой фон */
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.navbar {
+    background-color: #2980B9; /* синий оттенок */
+}
+
+.navbar-brand,
+.nav-link {
+    color: #FFF !important;
+}
+
+.nav-link:hover {
+    color: #AED6F1 !important;
+}
+
+.container,
+.card {
+    background-color: #FFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+/* Кнопки для редактирования и удаления */
+.btn-warning {
+    background-color: #F39C12;
+    border: none;
+    transition: background-color 0.3s;
+}
+.btn-warning:hover {
+    background-color: #D68910;
+}
+
+.btn-danger {
+    background-color: #C0392B;
+    border: none;
+    transition: background-color 0.3s;
+}
+.btn-danger:hover {
+    background-color: #A93226;
+}

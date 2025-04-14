@@ -1,0 +1,38 @@
+/* addArticle.css */
+/* Фон с тёплым светлым оттенком, комфортная типографика */
+body {
+    background-color: #FFF5E1; /* светлый теплый фон */
+    font-family: 'Open Sans', sans-serif;
+    color: #4A4A4A;
+}
+
+.navbar {
+    background-color: #D35400; /* насыщенный тёплый оранжевый */
+}
+
+.navbar-brand,
+.nav-link {
+    color: #FFF !important;
+}
+
+.nav-link:hover {
+    color: #F39C12 !important;
+}
+
+.container,
+.card {
+    background-color: #FFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.btn-primary {
+    background-color: #D35400;
+    border: none;
+    transition: background-color 0.3s;
+}
+.btn-primary:hover {
+    background-color: #BA4A00;
+}

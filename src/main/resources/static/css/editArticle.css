@@ -1,0 +1,38 @@
+/* editArticle.css */
+/* Палитра с успокаивающим зеленым оттенком */
+body {
+    background-color: #E9F7EF; /* мягкий зеленый фон */
+    font-family: 'Lato', sans-serif;
+    color: #2C3E50;
+}
+
+.navbar {
+    background-color: #27AE60; /* зеленый */
+}
+
+.navbar-brand,
+.nav-link {
+    color: #FFF !important;
+}
+
+.nav-link:hover {
+    color: #82E0AA !important;
+}
+
+.container,
+.card {
+    background-color: #FFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.btn-primary {
+    background-color: #27AE60;
+    border: none;
+    transition: background-color 0.3s;
+}
+.btn-primary:hover {
+    background-color: #1E8449;
+}

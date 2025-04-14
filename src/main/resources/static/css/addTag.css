@@ -1,0 +1,38 @@
+/* addTag.css */
+/* Лёгкая и свежая палитра с акцентом на бирюзовый оттенок */
+body {
+    background-color: #e0f7fa; /* светлый бирюзовый фон */
+    font-family: 'Helvetica', sans-serif;
+    color: #37474f;
+}
+
+.navbar {
+    background-color: #00838f; /* насыщенный бирюзовый */
+}
+
+.navbar-brand,
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #4dd0e1 !important;
+}
+
+.container,
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #00838f;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #006064;
+}

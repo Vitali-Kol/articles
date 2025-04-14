@@ -1,0 +1,63 @@
+/* listTags.css */
+/* Элегантная палитра с акцентом на насыщенный фиолетовый оттенок */
+body {
+    background-color: #f3e5f5; /* светло-фиолетовый фон */
+    font-family: 'Georgia', serif;
+    color: #4a148c;
+}
+
+.navbar {
+    background-color: #6a1b9a; /* насыщенный фиолетовый */
+}
+
+.navbar-brand,
+.nav-link {
+    color: black !important;
+}
+
+.nav-link:hover {
+    color: #ce93d8 !important;
+}
+
+.container,
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* Стилизация таблицы */
+table.table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+table.table thead tr {
+    background-color: #6a1b9a;
+    color: #ffffff;
+}
+table.table td, table.table th {
+    vertical-align: middle;
+}
+
+/* Кнопки действий */
+.btn-warning {
+    background-color: #fbc02d;
+    border: none;
+    transition: background-color 0.3s ease;
+    color: #4a148c;
+}
+.btn-warning:hover {
+    background-color: #f9a825;
+}
+
+.btn-danger {
+    background-color: #d32f2f;
+    border: none;
+    transition: background-color 0.3s ease;
+    color: #ffffff;
+}
+.btn-danger:hover {
+    background-color: #b71c1c;
+}
