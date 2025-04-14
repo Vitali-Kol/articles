@@ -74,12 +74,12 @@
 1. Скачать и включить XAMPP  (https://www.apachefriends.org/ru/index.html), после этого  зайти на вкладку SQL и дальше идти по пунктам.
 1.1. **Создание базы данных:**
    ```sql
-   CREATE DATABASE IF NOT EXISTS new_articles
+   CREATE DATABASE IF NOT EXISTS articles_db
      CHARACTER SET utf8mb4
      COLLATE utf8mb4_unicode_ci;
 
    CREATE USER 'new_user'@'localhost' IDENTIFIED BY 'new_password';
-   GRANT ALL PRIVILEGES ON new_articles.* TO 'new_user'@'localhost';
+   GRANT ALL PRIVILEGES ON articles_db.* TO 'new_user'@'localhost';
    FLUSH PRIVILEGES;
    ```
 2. **Скачать код с GitHub:**
