@@ -106,7 +106,7 @@ https://github.com/Vitali-Kol/articles/tree/final321
   Возможность оставлять комментарии к статьям.
 
 ## База данных (ER-диаграмма)
-![img.png](image.png)  
+![image.png](image.png)  
 *Пример диаграммы:*
 - **user** – хранит данные о пользователях (id, username, email, password, bio, role).
 - **article** – хранит информацию о статьях (id, title, description, body, owner_id, created_at, updated_at).
