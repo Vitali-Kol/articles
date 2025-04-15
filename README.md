@@ -72,6 +72,7 @@
 
 
 1. Скачать и включить XAMPP  (https://www.apachefriends.org/ru/index.html), после этого  зайти на вкладку SQL и дальше идти по пунктам.
+
 1.1. **Создание базы данных:**
    ```sql
    CREATE DATABASE IF NOT EXISTS articles_db
