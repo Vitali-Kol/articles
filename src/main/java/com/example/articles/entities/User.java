@@ -14,8 +14,13 @@ public class User {
     private Long id;
 
     private LocalDateTime createdAt;
+
+    @Column(unique = true)
     private String email;
+
+    @Column(unique = true)
     private String username;
+
     private String imageUrl;
     private String password;
 
